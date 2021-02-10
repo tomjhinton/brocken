@@ -23,7 +23,7 @@ const scene = new THREE.Scene()
  * Textures
  */
 const textureLoader = new THREE.TextureLoader()
-const flagTexture = textureLoader.load('/textures/texture.png')
+const flagTexture = textureLoader.load('./textures/texture.png')
 
 /**
  * Test mesh
